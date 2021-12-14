@@ -10,6 +10,9 @@
 String title = request.getParameter("title");
 String content = request.getParameter("content");
 
+System.out.println("title : " + title);
+System.out.println("content : " + content);
+
 // 사용자가 입력한 폼값을 저장하기 위해 DTO객체 생성
 BoardDTO dto = new BoardDTO();
 dto.setTitle(title);

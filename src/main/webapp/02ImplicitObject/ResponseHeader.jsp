@@ -37,7 +37,7 @@
     		  jpg와 같은 이미지 파일은 웹브라우저가 인식하는 MIME타입임으로 다운로드를
     		  위해서는 아래와 같은 설정이 필요하다.
     */
-    // response.setContentType("binaly/octect-stream");
+    // response.setContentType("binaly/octet-stream");
     
     /*
     새로운 내용을 DB에 추가했는데도 변경된 내용이 웹브라우저에 출력되지

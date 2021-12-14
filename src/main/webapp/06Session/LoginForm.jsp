@@ -10,8 +10,7 @@
 	<jsp:include page="../Common/Link.jsp"/>
 	<h2>로그인 페이지</h2>
 	<!-- 
-	request영역에 해당 속성이 있는지 확인하여 속성이 있다면
-	에러메세지를 출력한다.
+	request영역에 해당 속성이 있는지 확인하여 속성이 있다면	에러메세지를 출력한다.
 	해당 속성은 로그인실패처리시 request영역에 저장하게 된다.
 	 -->
 	<span style="color: red; font-size:1.2em;">

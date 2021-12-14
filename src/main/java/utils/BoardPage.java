@@ -5,7 +5,13 @@ public class BoardPage {
 	// 매개변수(전체게시물갯수, 한페이지당 게시글 출력갯수, 한블럭당출력페이지수, 현재페이지번호, 현제페이지명)
 	public static String pagingStr(int totalCount, int pageSize, int blockPage, int pageNum, String reqUrl) {
 		String pagingStr = "";
-		
+		/*
+		  totalCount 	전체게시물갯수
+		  pageSize		한페이지당 게시글 출력갯수
+		  blockPage		한블럭당출력페이지수
+		  pageNum		현재페이지번호
+		  reqUrl		현제페이지명
+		 */
 		// 전체 페이지 수 계산
 		int totalPages = (int)(Math.ceil(((double)totalCount / pageSize)));
 		

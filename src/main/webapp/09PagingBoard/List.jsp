@@ -50,7 +50,7 @@ if(pageTemp != null && !pageTemp.equals(""))
 // 게시물의 구간을 계산한다.
 int start = (pageNum - 1) * pageSize + 1; // 구간의 시작
 int end = pageNum * pageSize; // 구간의 끝
-param.put("start", start); // Map컬렉션에 젖아 후 DAO로 전달함.
+param.put("start", start); // Map컬렉션에 저장 후 DAO로 전달함.
 param.put("end", end);
 /**********  페이지 처리 end **********/
 
