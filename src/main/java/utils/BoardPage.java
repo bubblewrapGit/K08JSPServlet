@@ -6,11 +6,11 @@ public class BoardPage {
 	public static String pagingStr(int totalCount, int pageSize, int blockPage, int pageNum, String reqUrl) {
 		String pagingStr = "";
 		/*
-		  totalCount 	전체게시물갯수
-		  pageSize		한페이지당 게시글 출력갯수
-		  blockPage		한블럭당출력페이지수
-		  pageNum		현재페이지번호
-		  reqUrl		현제페이지명
+		  totalCount 	전체 게시물 갯수
+		  pageSize		한 페이지 당 게시글 출력 갯수
+		  blockPage		한 블럭 당 출력할 페이지 번호의 갯수
+		  pageNum		현재 진입한 목록의 페이지 번호
+		  reqUrl		현제 목록을 실행한 JSP파일의 경로 혹은 요청명
 		 */
 		// 전체 페이지 수 계산
 		int totalPages = (int)(Math.ceil(((double)totalCount / pageSize)));
