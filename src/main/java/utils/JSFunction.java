@@ -30,7 +30,7 @@ public class JSFunction {
 			String script = ""
 					+"<script>"
 					+" alert('" + msg + "');"
-					+"	hiestory.back();"
+					+"	history.back();"
 					+"</script>";
 			out.println(script);
 		}catch(Exception e) {}
@@ -66,7 +66,7 @@ public class JSFunction {
 			String script = ""
 					+"<script>"
 					+"  alert('" + msg + "');"
-					+"	hiestory.back();"
+					+"	history.back();"
 					+"</script>";
 			writer.println(script);
 		}catch(Exception e) {}

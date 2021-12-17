@@ -61,7 +61,7 @@
 					</td>
 					<!-- 제목 -->
 					<td align="left">
-						<a href="../mvcboard/View.do?idx=${ row.idx }">${ row.title }</a>
+						<a href="../mvcboard/view.do?idx=${ row.idx }">${ row.title }</a>
 					</td>
 					<!-- 작성자 -->
 					<td>${ row.name }</td>
